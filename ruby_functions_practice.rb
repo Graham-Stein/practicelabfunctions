@@ -66,21 +66,38 @@
 
 
 
-def number_to_short_month_name (month_short)
-  case month_short
-	when 1
-	  return "Jan"
-	when 2
-	  return "Feb"
-	when 3
-	  return "Mar"
-  when 4
-    return "Apr"
-  when 9
-    return "Sep "
-  when 10
-    return "Oct"
-  else
-    return "failed"
-  end
+# def number_to_short_month_name (month_short)
+#   case month_short
+# 	when 1
+# 	  return "Jan"
+# 	when 2
+# 	  return "Feb"
+# 	when 3
+# 	  return "Mar"
+#   when 4
+#     return "Apr"
+#   when 9
+#     return "Sep "
+#   when 10
+#     return "Oct"
+#   else
+#     return "failed"
+#   end
+# end
+
+
+# def volume_of_cube(length)
+#   return length**3
+# end
+
+#4188.79
+
+def volume_of_sphere(radius)
+sphere = 4/3*Math::PI*radius**3.to_f
+  return sphere.round(2)
 end
+
+# def fahrenheit_to_celsius(old_school_temp)
+#   temp = (old_school_temp-32)*5/9.to_f
+#   return temp.round(4)
+# end

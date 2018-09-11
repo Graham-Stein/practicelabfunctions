@@ -79,19 +79,24 @@ class FunctionsTest < MiniTest::Test
   # #
   # #Further
   #
-  # #Given the length of a side of a cube calculate the volume
+  #Given the length of a side of a cube calculate the volume
   # def test_volume_of_cube()
-  #   #add test code here
+  #   test_volume = volume_of_cube(5)
+  #   assert_equal(125, test_volume)
   # end
   #
-  # #Given the radius of a sphere calculate the volume
+  #Given the radius of a sphere calculate the volume
   # def test_volume_of_sphere()
-  #   #add test code here
+  #   test_volume = volume_of_sphere(10)
+  #   assert_equal(4188.79, test_volume)
   # end
-  #
+
   # #Given a value in farenheit, convert this into celsius.
   # def test_fahrenheit_to_celsius()
+  #   #	Farenheit to celcius is Deduct 32, then multiply by 5, then divide by 9
   #   #add test code here
+  #   test_temp = fahrenheit_to_celsius (100)
+  #   assert_equal(37.7778, test_temp)
   # end
 
 
